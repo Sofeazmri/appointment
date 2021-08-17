@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   # Route to -> /counsellors
   get 'counsellors', to: "public#counsellors", as: :counsellors
   get 'services', to: "public#services", as: :services
+  get 'about', to: "public#about", as: :about
   
 end

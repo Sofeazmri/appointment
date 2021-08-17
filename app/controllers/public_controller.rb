@@ -7,4 +7,7 @@ class PublicController < ApplicationController
 
   def services
   end
+
+  def about
+  end
 end
