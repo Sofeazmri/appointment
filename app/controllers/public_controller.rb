@@ -4,4 +4,7 @@ class PublicController < ApplicationController
 
   def counsellors
   end
+
+  def services
+  end
 end
