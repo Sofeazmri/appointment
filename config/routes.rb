@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  resources :appoints
   root to: 'public#index'
 
   # Route to -> /counsellors

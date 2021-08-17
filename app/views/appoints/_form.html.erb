@@ -1,0 +1,40 @@
+
+<%= simple_form_for(@appoint) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="form-inputs">
+    <div>
+      <%= f.input :name %>
+    </div>
+
+    <div class="my-2">
+      <%= f.input :matric %>
+    </div>
+    
+    <div class="my-2">
+      <%= f.input :phone %>
+    </div>
+    
+    <div class="my-2">
+      <%= f.input :email %>
+    </div>
+    
+    <div class="my-2">
+      <%= f.input :services, collection: ["Advising", "counselling", "Consultation", "Discussion", "Test/Inventories"], prompt: "Choose Services" %>
+    </div>
+    
+    <div class="my-2">
+      <%= f.input :issue %>
+    </div>
+    
+    <div class="my-2">
+      <%= f.input :datetime %>
+    </div>
+    
+  </div>
+
+  <div class="form-actions mt-3">
+    <%= f.button :submit, "Submit", :class=>"btn btn-primary btn-block" %>
+  </div>
+<% end %>

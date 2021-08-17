@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  matric: MyString
+  phone: MyString
+  email: MyString
+  services: MyString
+  issue: MyString
+  counsellor: MyString
+  datetime: 2021-08-17 23:55:19
+
+two:
+  name: MyString
+  matric: MyString
+  phone: MyString
+  email: MyString
+  services: MyString
+  issue: MyString
+  counsellor: MyString
+  datetime: 2021-08-17 23:55:19
